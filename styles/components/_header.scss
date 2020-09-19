@@ -1,0 +1,70 @@
+.Header{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    background-color: #f4d03f;
+
+    &-superior {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &-superiorPhone {
+        text-decoration: none;
+        color: black;
+        font-family: arial;
+
+            &:hover {
+                text-decoration: underline;
+                color: blue;
+            }
+    }
+
+    &-middle {
+        width: 60%;
+        text-align: center;
+        margin: 40px auto 0 auto;
+        padding-bottom: 40px;
+    }
+
+    &-middleTitle {
+        font-family: Helvetica;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    &-middleSubscription {
+        font-family: arial;
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+    }
+
+    &-middleSubscriptionForm {
+        margin: 10px 0 0 0;
+    }
+
+    &-middleSubscriptionLabel {
+        width: 150px;
+        height: 2rem;
+        font-family: inherit;
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+
+    &-middleSubscriptionButton {
+        width: 150px;
+        height: 2rem;
+        font-family: inherit;
+        font-size: 0.8rem;
+        background-color: #2471a3;
+        border: none;
+    }
+
+    &-middleSubscriptionFooter {
+        font-size: 0.8rem;
+        margin: 20px 0 0 0;
+    }
+
+}
+ 

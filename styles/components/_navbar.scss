@@ -1,0 +1,43 @@
+.Navbar {
+   width: 80%;
+   margin: 40px auto 20px auto;
+
+   &-navigationMenu {
+       list-style: none;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   &-navigationItem {
+       width: 8rem;
+   }
+
+   &-navigationImage {
+       width: 3rem;
+       height: 3rem;
+       margin: 0 auto 0 auto;
+       background-color: #d4e6f1;
+       border-radius: 50%;
+   }
+
+   &-navigationText {
+       width: 8rem;
+       height: 3rem;
+       padding: 0 10px 0 10px;
+       text-align: center;
+   }
+
+   &-navigationLink {
+       text-decoration: none;
+       color: black;
+       font-family: arial;
+       font-size: 1rem;
+
+       &:hover {
+           text-decoration: underline;
+           color: blue;
+       }
+   }
+
+}

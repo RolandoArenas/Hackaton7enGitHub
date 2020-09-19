@@ -1,0 +1,49 @@
+
+ .Subscribe {
+     width: 80%;
+     margin: 40px auto 20px auto;
+     background-color: #f4d03f;
+
+
+    &-form {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        padding: 20px 0 40px 0;
+    }
+
+
+    &-formTitle {
+        font-family: helvetica;
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+    }
+
+    &-formForm {
+        margin: 10px 0 0 0;
+    }
+
+    &-formLabel {
+        width: 150px;
+        height: 2rem;
+        font-family: arial;
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+
+    &-formButton {
+        width: 150px;
+        height: 2rem;
+        font-family: arial;
+        font-size: 0.8rem;
+        background-color: #2471a3;
+        border: none;
+    }
+
+    &-formFooter {
+        font-size: 1rem;
+        margin: 20px 0 0 0;
+    }
+
+ }
